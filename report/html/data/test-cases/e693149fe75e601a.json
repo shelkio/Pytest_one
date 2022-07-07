@@ -1,0 +1,149 @@
+{
+  "uid" : "e693149fe75e601a",
+  "name" : "用例标题  传失效的token",
+  "fullName" : "test_case.test_req#test_select",
+  "historyId" : "c7e5c3f6b696e690059a53ad8501ad69",
+  "time" : {
+    "start" : 1657173035748,
+    "stop" : 1657173035805,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fa8e12f5c42addca",
+      "name" : "log",
+      "source" : "fa8e12f5c42addca.txt",
+      "type" : "text/plain",
+      "size" : 829
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "车管所查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_req"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9BAFSPC"
+  }, {
+    "name" : "thread",
+    "value" : "32444-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_req"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'detail': '传失效的token', 'data': {'cgs_token': 'fbf66c79988e43608bccc68088d7d123', 'pageIndex': '1'}, 'resp': {'code': '204', 'message': '用户Token失效，请重新登录.'}}"
+  }, {
+    "name" : "url_method",
+    "value" : "{'url': '/cgsfront/appointment/getHandlingRecord', 'method': 'post'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "61357fdede4f6002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657101148488,
+        "stop" : 1657101148539,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "a3f11e9c98a30bc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657101088929,
+        "stop" : 1657101088981,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "4fb1a3e3108e6726",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657100979674,
+        "stop" : 1657100979730,
+        "duration" : 56
+      }
+    }, {
+      "uid" : "226c46479f90b46a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657100915833,
+        "stop" : 1657100915886,
+        "duration" : 53
+      }
+    }, {
+      "uid" : "3102135cb52bd0ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657100778331,
+        "stop" : 1657100778385,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "95a0181a5aadfd21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657100669415,
+        "stop" : 1657100669469,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "c7165bfe6a239cef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657093700939,
+        "stop" : 1657093700996,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "f8a6db85bbcd1294",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657093626344,
+        "stop" : 1657093626409,
+        "duration" : 65
+      }
+    }, {
+      "uid" : "e6d75b062e89769d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657093616013,
+        "stop" : 1657093616064,
+        "duration" : 51
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e693149fe75e601a.json",
+  "parameterValues" : [ "{'detail': '传失效的token', 'data': {'cgs_token': 'fbf66c79988e43608bccc68088d7d123', 'pageIndex': '1'}, 'resp': {'code': '204', 'message': '用户Token失效，请重新登录.'}}", "{'url': '/cgsfront/appointment/getHandlingRecord', 'method': 'post'}" ]
+}

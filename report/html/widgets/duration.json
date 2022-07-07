@@ -1,0 +1,41 @@
+[ {
+  "uid" : "81e130de526e6d18",
+  "name" : "用例标题  传正确的参数",
+  "time" : {
+    "start" : 1657173035504,
+    "stop" : 1657173035717,
+    "duration" : 213
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e693149fe75e601a",
+  "name" : "用例标题  传失效的token",
+  "time" : {
+    "start" : 1657173035748,
+    "stop" : 1657173035805,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a64ce9d8cc56d719",
+  "name" : "bbb测试用例",
+  "time" : {
+    "start" : 1657173035501,
+    "stop" : 1657173035501,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d661d918ba41e29",
+  "name" : "aaa测试用例",
+  "time" : {
+    "start" : 1657173035498,
+    "stop" : 1657173035499,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

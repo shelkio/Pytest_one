@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_demo1",
+      "children" : [ {
+        "name" : "aaa测试用例",
+        "uid" : "9d661d918ba41e29",
+        "parentUid" : "73e6db31374c132ee36151eae8f63467",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657173035498,
+          "stop" : 1657173035499,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "bbb测试用例",
+        "uid" : "a64ce9d8cc56d719",
+        "parentUid" : "73e6db31374c132ee36151eae8f63467",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657173035501,
+          "stop" : 1657173035501,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73e6db31374c132ee36151eae8f63467"
+    }, {
+      "name" : "test_req",
+      "children" : [ {
+        "name" : "用例标题  传正确的参数",
+        "uid" : "81e130de526e6d18",
+        "parentUid" : "170beb579763057cadbc7f3b44c206e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657173035504,
+          "stop" : 1657173035717,
+          "duration" : 213
+        },
+        "flaky" : true,
+        "parameters" : [ "{'detail': '传正确的参数', 'data': {'cgs_token': 'fbf66c79988e43608bccc68088d7d0e4', 'pageIndex': '1'}, 'resp': {'code': '200', 'message': '操作成功'}}", "{'url': '/cgsfront/appointment/getHandlingRecord', 'method': 'post'}" ]
+      }, {
+        "name" : "用例标题  传失效的token",
+        "uid" : "e693149fe75e601a",
+        "parentUid" : "170beb579763057cadbc7f3b44c206e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657173035748,
+          "stop" : 1657173035805,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "parameters" : [ "{'detail': '传失效的token', 'data': {'cgs_token': 'fbf66c79988e43608bccc68088d7d123', 'pageIndex': '1'}, 'resp': {'code': '204', 'message': '用户Token失效，请重新登录.'}}", "{'url': '/cgsfront/appointment/getHandlingRecord', 'method': 'post'}" ]
+      } ],
+      "uid" : "170beb579763057cadbc7f3b44c206e2"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}

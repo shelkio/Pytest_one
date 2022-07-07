@@ -1,0 +1,4 @@
+2022-07-06 17:52:28 [INFO] 123123435 (test_demo1.py:16)
+2022-07-06 17:52:28 [WARNING] 123124444 (test_demo1.py:17)
+2022-07-06 17:52:28 [DEBUG] 456 (test_demo1.py:18)
+2022-07-06 17:52:28 [ERROR] ddddd (test_demo1.py:19)

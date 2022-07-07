@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '200' == '204'\n  - 204\n  + 200",
+      "children" : [ {
+        "name" : "用例标题  传正确的参数",
+        "uid" : "81e130de526e6d18",
+        "parentUid" : "6b37f91303a5d66864dae1e719f5758d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657173035504,
+          "stop" : 1657173035717,
+          "duration" : 213
+        },
+        "flaky" : true,
+        "parameters" : [ "{'detail': '传正确的参数', 'data': {'cgs_token': 'fbf66c79988e43608bccc68088d7d0e4', 'pageIndex': '1'}, 'resp': {'code': '200', 'message': '操作成功'}}", "{'url': '/cgsfront/appointment/getHandlingRecord', 'method': 'post'}" ]
+      } ],
+      "uid" : "6b37f91303a5d66864dae1e719f5758d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

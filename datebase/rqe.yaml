@@ -1,0 +1,21 @@
+# 车管所查询
+
+- # 接口路径及请求方式
+  url: /cgsfront/appointment/getHandlingRecord
+  method: post
+- # 用例编号: test_001
+  detail: 传正确的参数 # 用例名称
+  data:
+    cgs_token: fbf66c79988e43608bccc68088d7d0e4
+    pageIndex: '1'
+  resp:
+    code: '200'
+    message: 操作成功
+- # 用例编号: test_002
+  detail: 传失效的token # 用例名称
+  data:
+    cgs_token: fbf66c79988e43608bccc68088d7d123
+    pageIndex: '1'
+  resp:
+    code: '204'
+    message: 用户Token失效，请重新登录.

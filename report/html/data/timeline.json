@@ -1,0 +1,61 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-9BAFSPC",
+    "children" : [ {
+      "name" : "32444-MainThread",
+      "children" : [ {
+        "name" : "用例标题  传正确的参数",
+        "uid" : "81e130de526e6d18",
+        "parentUid" : "dba06acfa5dbd8fe68172e6f36729d77",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657173035504,
+          "stop" : 1657173035717,
+          "duration" : 213
+        },
+        "flaky" : true,
+        "parameters" : [ "{'detail': '传正确的参数', 'data': {'cgs_token': 'fbf66c79988e43608bccc68088d7d0e4', 'pageIndex': '1'}, 'resp': {'code': '200', 'message': '操作成功'}}", "{'url': '/cgsfront/appointment/getHandlingRecord', 'method': 'post'}" ]
+      }, {
+        "name" : "用例标题  传失效的token",
+        "uid" : "e693149fe75e601a",
+        "parentUid" : "dba06acfa5dbd8fe68172e6f36729d77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657173035748,
+          "stop" : 1657173035805,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "parameters" : [ "{'detail': '传失效的token', 'data': {'cgs_token': 'fbf66c79988e43608bccc68088d7d123', 'pageIndex': '1'}, 'resp': {'code': '204', 'message': '用户Token失效，请重新登录.'}}", "{'url': '/cgsfront/appointment/getHandlingRecord', 'method': 'post'}" ]
+      }, {
+        "name" : "bbb测试用例",
+        "uid" : "a64ce9d8cc56d719",
+        "parentUid" : "dba06acfa5dbd8fe68172e6f36729d77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657173035501,
+          "stop" : 1657173035501,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "aaa测试用例",
+        "uid" : "9d661d918ba41e29",
+        "parentUid" : "dba06acfa5dbd8fe68172e6f36729d77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657173035498,
+          "stop" : 1657173035499,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dba06acfa5dbd8fe68172e6f36729d77"
+    } ],
+    "uid" : "1179d19869ec7e2a4d32791d2e20f8ff"
+  } ]
+}
